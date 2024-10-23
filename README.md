@@ -1,7 +1,8 @@
 # Python Projects: Automation, API Integration, Web Scraping, and Data Processing with Popular Libraries
 
-This repository is a collection of various Python scripts where I experiment with different functionalities, including automation, web scraping, and other tasks.
-This project contains Python scripts that perform various tasks such as web automation using Selenium, querying the Yelp API for business search, and web scraping using BeautifulSoup.
+This repository is a collection of various Python scripts where I experiment with different functionalities, including automation, web scraping, API integration, and data processing using common libraries.
+
+- Sample files are provided to demonstrate the functionality of each script.
 
 ## Table of Contents
 
@@ -9,8 +10,9 @@ This project contains Python scripts that perform various tasks such as web auto
 2. [Configuration](#configuration)
 3. [Usage](#usage)
 4. [Features](#features)
-5. [Contributing](#contributing)
-6. [License](#license)
+5. [Sample Files](#sample-files)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## Installation
 
@@ -115,6 +117,14 @@ Barber Shop XYZ
 - **Excel Processing**: Formats and prints rows from an Excel sheet.
 - **Array Calculations**: Demonstrates basic array operations using NumPy.
 - **Web Scraping**: Scrapes the latest questions from Stack Overflow and prints the questions and vote counts.
+
+## Sample Files
+
+This repository includes sample files to demonstrate the functionality of the scripts:
+
+- `transactions.xlsx` for the Excel processing script.
+- `first.pdf` and `second.pdf` for PDF rotation and merging examples.
+- These files can be found in the `samples` directory within the project.
 
 ## Contributing
 
