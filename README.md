@@ -26,8 +26,8 @@ This project contains Python scripts that perform various tasks such as web auto
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/BaconPancakez/py_ext
+   cd py_ext
    ```
 
 2. **Install required dependencies:**
@@ -79,7 +79,7 @@ You can run the individual scripts by selecting one of the following options:
 To run the script and select one of the tasks:
 
 ```bash
-python3 main.py
+python3 app.py
 ```
 
 After running the script, you will be prompted to select one of the available tasks:
