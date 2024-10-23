@@ -1,4 +1,4 @@
-# Python Project: Automation, Yelp API, and Web Scraping
+# Python Project: Automation, Yelp API, Web Scraping and Common used Libraries
 
 This repository is a collection of various Python scripts where I experiment with different functionalities, including automation, web scraping, and other tasks.
 This project contains Python scripts that perform various tasks such as web automation using Selenium, querying the Yelp API for business search, and web scraping using BeautifulSoup.
