@@ -69,48 +69,52 @@ This project contains Python scripts that perform various tasks such as web auto
 
 ## Usage
 
-You can run the individual scripts by selecting one of the following options:
+You can run the individual scripts for different tasks as shown below:
 
-- **Automation**: Logs into GitHub using Selenium and automates some tasks.
-- **Pyvelp (Yelp API)**: Queries the Yelp API for businesses in NYC and filters results based on ratings.
-- **Scraping**: Scrapes the latest questions from Stack Overflow and displays the question titles and vote counts.
+- **Automation (automation.py)**: Logs into GitHub using Selenium and automates some tasks.
+- **Yelp API (pyvelp.py)**: Queries the Yelp API for businesses in NYC and filters results based on ratings.
+- **PDF Processing (pypdf.py)**: Rotates a page in a PDF and merges multiple PDFs.
+- **Excel Processing (pyExcel.py)**: Reads and formats data from an Excel sheet using `openpyxl`.
+- **Array Calculations (pyNumbers.py)**: Performs array operations and calculations using NumPy.
+- **Web Scraping (scraping.py)**: Scrapes the latest questions from Stack Overflow and displays the question titles and vote counts.
 
-### Running the Main Script:
+### Running the Individual Scripts:
 
-To run the script and select one of the tasks:
-
-```bash
-python3 app.py
-```
-
-After running the script, you will be prompted to select one of the available tasks:
-
-```
-Select an option:
-1. Automation
-2. Pyvelp
-3. Scraping
-Which one would you like to select?
-```
-
-### Example:
+To run any of the individual scripts, simply run them using Python:
 
 ```bash
-Select an option:
-1. Automation
-2. Pyvelp
-3. Scraping
-Which one would you like to select? 1
+python3 <script_name.py>
+```
+
+For example, to run the **automation.py** script, use the following command:
+
+```bash
+python3 automation.py
+```
+
+### Example Output:
+
+For **Automation (automation.py)**:
+
+```bash
 running automation....
 ```
 
-The corresponding task will then be executed.
+For **Yelp API (pyvelp.py)**:
+
+```bash
+Barber Shop XYZ
+[‘High Rated Barber Shop 1’, ‘High Rated Barber Shop 2’]
+```
 
 ## Features
 
 - **Automation**: Uses Selenium to automate login to GitHub.
 - **Yelp Business Search (Pyvelp)**: Queries the Yelp API to retrieve a list of businesses and filters those with ratings higher than 4.5.
-- **Web Scraping**: Scrapes the latest questions from Stack Overflow and prints them along with their vote counts.
+- **PDF Processing**: Rotates and merges PDF files using PyPDF2.
+- **Excel Processing**: Formats and prints rows from an Excel sheet.
+- **Array Calculations**: Demonstrates basic array operations using NumPy.
+- **Web Scraping**: Scrapes the latest questions from Stack Overflow and prints the questions and vote counts.
 
 ## Contributing
 
